@@ -4,7 +4,8 @@ import {Cart} from './Pages/Cart'
 import {Favourites} from './Pages/Favorites'
 import {Order} from './Pages/Order'
 
-
+//sideBar
+import SideBar from './Components/SideBar'
 //react router dom
 import{
   createBrowserRouter,
@@ -36,9 +37,15 @@ function App() {
 export default App
 const Root = ()=>{
   return(
+    <>
+    <div>
+      <SideBar/>
+    </div>
+    
     <div>
       {/* You might want to include an <Outlet /> here for nested routes to render */}
       <Outlet />  
     </div>
+    </>
   )
 }

@@ -1,8 +1,11 @@
-import React from 'react'
+
+import CartItems from '../Components/CartItems'
 
 export function Cart(){
   return (
-    <div>Cart</div>
+    <div className='ml-[80px]'>
+      <CartItems/>
+    </div>
   )
 }
 
