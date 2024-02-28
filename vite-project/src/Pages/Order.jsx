@@ -1,9 +1,9 @@
-import React from 'react'
 
-const Order = () => {
+export function Order(){
   return (
     <div>Order</div>
   )
 }
 
-export default Order
+
+
