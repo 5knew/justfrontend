@@ -1,6 +1,6 @@
 import {AiFillDelete} from 'react-icons/ai'
 import {BsArrowLeft} from 'react-icons/bs'
-import image from '../assets/glasses.jpeg'
+import image from '../assets/kitchen/1.jpg'
 
 const CartItems = () => {
   return (
@@ -24,7 +24,7 @@ const CartItems = () => {
               <tr className='border-dashed boerder-b'>
                 <td className='py-5'>
                   <div className='flex items-center space-x-3 py-2'>
-                    <img src={image} alt=''/>
+                    <img className='w-[60%]' src={image} alt=''/>
                     <div>
                     <h1 className='text-xl font-bold'>Glass</h1>
                     <p> Description</p>

@@ -3,7 +3,7 @@ import Home from './Pages/Home'
 import {Cart} from './Pages/Cart'
 import {Favourites} from './Pages/Favorites'
 import {Order} from './Pages/Order'
-
+import {Login} from './Pages/Login'
 //sideBar
 import SideBar from './Components/SideBar'
 //react router dom
@@ -15,6 +15,7 @@ import{
   Route
 }from'react-router-dom'
 
+
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -23,6 +24,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/favs' element={<Favourites/>}/>
         <Route path='/order' element={<Order/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Route>
     )
   )
